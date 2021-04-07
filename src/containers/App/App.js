@@ -1,12 +1,8 @@
 import './App.css';
+import { Button } from '@material-ui/core';
 
 function App() {
-    
-  return (
-    <div className="App">
-      Hello
-    </div>
-  );
+    return <Button color="primary">Hello World</Button>;
 }
 
 export default App;
