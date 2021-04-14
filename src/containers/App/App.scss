@@ -1,0 +1,28 @@
+.app-wrapper {
+  display: flex;
+
+  #turn-phases, .battlefield, #stack {
+    box-sizing: border-box;
+  }
+  
+  #turn-phases, #stack {
+    height: 100vh;
+  }
+
+  #turn-phases {
+    width: 5%;
+  }
+
+  #battlefield-wrapper {
+    width: 85%;
+    box-sizing: border-box;
+
+    .battlefield {
+      height: 50vh;
+    }
+  }
+
+  #stack {
+    width: 10%;
+  }
+}
