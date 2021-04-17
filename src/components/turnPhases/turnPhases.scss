@@ -1,0 +1,11 @@
+.turn-phases-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .a {
+    padding-top: 20px;
+  }
+  .turn-phase {
+    padding-top: 2px;
+  }
+}

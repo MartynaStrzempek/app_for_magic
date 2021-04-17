@@ -1,11 +1,14 @@
 import './App.scss';
-import React from "react";
+import React from 'react';
 import { Grid, Paper } from '@material-ui/core';
+import { TurnPhases } from '../../components/turnPhases/turnPhases';
 
-function App() {
+export const App = () => {
     return (
         <div className="app-wrapper">
-            <div id="turn-phases">vertical buttons</div>
+            <div id="turn-phases">
+                <TurnPhases />
+            </div>
             <div id="battlefield-wrapper">
                 <div className="battlefield">battlefield</div>
                 <div className="battlefield">battlefield</div>
@@ -14,5 +17,3 @@ function App() {
         </div>
     );
 }
-
-export default App;
